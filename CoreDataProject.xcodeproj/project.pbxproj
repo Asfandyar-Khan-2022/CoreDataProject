@@ -13,6 +13,10 @@
 		63F25BC52ACD7B7200D724D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F25BC42ACD7B7200D724D0 /* Preview Assets.xcassets */; };
 		63F25BCD2ACD7BA200D724D0 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63F25BCB2ACD7BA200D724D0 /* CoreDataProject.xcdatamodeld */; };
 		63F25BCF2ACD7C4B00D724D0 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F25BCE2ACD7C4B00D724D0 /* DataController.swift */; };
+		63F25BDE2ACDC37100D724D0 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F25BDA2ACDC37100D724D0 /* Candy+CoreDataClass.swift */; };
+		63F25BDF2ACDC37100D724D0 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F25BDB2ACDC37100D724D0 /* Candy+CoreDataProperties.swift */; };
+		63F25BE02ACDC37100D724D0 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F25BDC2ACDC37100D724D0 /* Country+CoreDataClass.swift */; };
+		63F25BE12ACDC37100D724D0 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F25BDD2ACDC37100D724D0 /* Country+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		63F25BC42ACD7B7200D724D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		63F25BCC2ACD7BA200D724D0 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
 		63F25BCE2ACD7C4B00D724D0 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		63F25BDA2ACDC37100D724D0 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		63F25BDB2ACDC37100D724D0 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		63F25BDC2ACDC37100D724D0 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		63F25BDD2ACDC37100D724D0 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +63,14 @@
 		63F25BBC2ACD7B6F00D724D0 /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				63F25BDA2ACDC37100D724D0 /* Candy+CoreDataClass.swift */,
+				63F25BDB2ACDC37100D724D0 /* Candy+CoreDataProperties.swift */,
+				63F25BDC2ACDC37100D724D0 /* Country+CoreDataClass.swift */,
+				63F25BDD2ACDC37100D724D0 /* Country+CoreDataProperties.swift */,
 				63F25BBD2ACD7B6F00D724D0 /* CoreDataProjectApp.swift */,
 				63F25BBF2ACD7B6F00D724D0 /* ContentView.swift */,
-				63F25BCB2ACD7BA200D724D0 /* CoreDataProject.xcdatamodeld */,
 				63F25BCE2ACD7C4B00D724D0 /* DataController.swift */,
+				63F25BCB2ACD7BA200D724D0 /* CoreDataProject.xcdatamodeld */,
 				63F25BC12ACD7B7200D724D0 /* Assets.xcassets */,
 				63F25BC32ACD7B7200D724D0 /* Preview Content */,
 			);
@@ -144,7 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				63F25BC02ACD7B6F00D724D0 /* ContentView.swift in Sources */,
+				63F25BDE2ACDC37100D724D0 /* Candy+CoreDataClass.swift in Sources */,
 				63F25BCF2ACD7C4B00D724D0 /* DataController.swift in Sources */,
+				63F25BDF2ACDC37100D724D0 /* Candy+CoreDataProperties.swift in Sources */,
+				63F25BE12ACDC37100D724D0 /* Country+CoreDataProperties.swift in Sources */,
+				63F25BE02ACDC37100D724D0 /* Country+CoreDataClass.swift in Sources */,
 				63F25BBE2ACD7B6F00D724D0 /* CoreDataProjectApp.swift in Sources */,
 				63F25BCD2ACD7BA200D724D0 /* CoreDataProject.xcdatamodeld in Sources */,
 			);
